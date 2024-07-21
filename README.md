@@ -117,6 +117,8 @@ This script uploads files from a local folder on your computer to a specific fol
 
    
 Usage
+
+
     1.	Ensure you have a client_secret.json file for Google Drive API authentication.
     
     2.	Place the script in a suitable location on your computer.
