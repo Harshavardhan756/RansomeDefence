@@ -2,14 +2,16 @@ Ransomware Attacks
 Overview
 Ransomware is a type of malicious software that threatens to publish the victim's data or perpetually block access to it unless a ransom is paid. It is a subset of malware where the data on a victim's computer is locked, typically by encryption, and payment is demanded before the ransomed data is decrypted or access is returned to the victim.
 
-How Ransomware Works
+How Ransomware Works:
+
     Infection: Ransomware can be introduced to a system through phishing emails, malicious downloads, or exploiting vulnerabilities in software.
     Encryption: Once activated, the ransomware encrypts files on the infected system using complex encryption algorithms.
     Ransom Demand: A ransom note is displayed, instructing the victim to pay a specified amount, often in cryptocurrency, to receive a decryption key.
     Decryption: Upon payment, if the attackers are honest, the decryption key is provided to the victim to unlock their files. However, there is no guarantee that the attackers will provide the key.
 
     
-Prevention Measures
+Prevention Measures:
+
     Regular Backups: Maintain regular backups of important data on offline storage or cloud services. Ensure backups are not connected to the network to prevent ransomware from encrypting them as well.
     Update and Patch Systems: Keep all software up to date with the latest security patches to prevent exploitation of known vulnerabilities.
     Email Security: Use email filtering to block malicious attachments and links. Train users to recognize and report phishing emails.
@@ -17,7 +19,8 @@ Prevention Measures
     Access Controls: Limit user permissions and enforce the principle of least privilege to reduce the potential impact of ransomware.
 
     
-Response to an Attack
+Response to an Attack:
+
     Isolate the Infection: Immediately disconnect the infected system from the network to prevent the ransomware from spreading.
     Identify the Ransomware: Determine the type of ransomware involved. This can help in finding potential decryption tools or solutions.
     Report the Attack: Report the incident to relevant authorities and cybersecurity organizations for assistance and tracking.
@@ -44,6 +47,8 @@ Set up Google Drive API:
 
 On a brief Note::
 Go to the Google API Console:
+
+
 
 Open your web browser and go to the Google API Console.
 Sign in with your Google account if you haven't already.
