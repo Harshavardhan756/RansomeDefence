@@ -88,24 +88,29 @@ The JSON file containing your credentials will be downloaded to your computer. K
 Description of the Code
 This script uploads files from a local folder on your computer to a specific folder in Google Drive. Here's a step-by-step breakdown of what the code does:
 1.	Setup and Initialization:
+
     o	Defines the local folder path (D:\\global) and the Google Drive folder ID where the files will be uploaded.
     o	Imports necessary libraries for interacting with the Google Drive API and handling file operations.
-2.	Authentication with Google Drive:
+3.	Authentication with Google Drive:
+
     o	Defines a function authenticate_google_drive() to handle the authentication process.
     o	The function checks if a token file (token.pickle) exists to use previously stored credentials.
     o	If not, it initiates a new authentication flow using a client secrets file (client_secret.json).
     o	The credentials are saved in token.pickle for future use.
-3.	Checking Existing Files in Google Drive:
+5.	Checking Existing Files in Google Drive:
+
     o	Defines a function get_existing_files(service) that retrieves the list of files already present in the specified Google Drive folder.
     o	This helps avoid uploading duplicate files.
-4.	Uploading Files:
+7.	Uploading Files:
+
     o	Defines a function upload_files() that handles the uploading process.
     o	Authenticates with Google Drive using the authenticate_google_drive() function.
     o	Gets the list of existing files in the Google Drive folder.
     o	Iterates through the local folder, and for each file, checks if it is already present in Google Drive.
     o	If the file is not already present, it uploads the file to the specified Google Drive folder and prints a confirmation message.
     o	If the file is already present, it prints a message stating that the file already exists.
-5.	Main Execution:
+9.	Main Execution:
+   
     o	The script runs the upload_files() function when executed.
 
 
