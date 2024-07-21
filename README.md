@@ -118,8 +118,11 @@ This script uploads files from a local folder on your computer to a specific fol
    
 Usage
     1.	Ensure you have a client_secret.json file for Google Drive API authentication.
+    
     2.	Place the script in a suitable location on your computer.
+    
     3.	Update the local_folder_path and google_drive_folder_id variables with your actual folder path and Google Drive folder ID.
+    
     4.	Run the script. It will upload all files from the specified local folder to the specified Google Drive folder, avoiding duplicates.
 
 
